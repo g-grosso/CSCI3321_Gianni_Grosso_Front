@@ -1,0 +1,50 @@
+.squareHolder {
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    width: 800px;
+    height: 450px;
+    transition: height 2500ms, border-radius 2500ms;
+}
+
+.squareOdd {
+    display:inline-block;
+    vertical-align: middle;
+    background-color: slateblue;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: larger;
+    color:whitesmoke;
+    transition: transform 2500ms;
+}
+
+.squareEven {
+    display:inline-block;
+    vertical-align: middle;
+    background-color: mediumpurple;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: larger;
+    color:whitesmoke;
+    transition: transform 2500ms;
+}
+.squareHolder:hover > .squareOdd {
+    transform: translateX(375px) rotate(-1080deg) scale(75%);
+}
+
+.squareHolder:hover > .squareEven {
+    transform: translateX(-345px) rotate(1080deg) scale(200%);
+}
+
+.squareHolder:hover {
+    height:500px;
+    border-radius: 25px;
+}
