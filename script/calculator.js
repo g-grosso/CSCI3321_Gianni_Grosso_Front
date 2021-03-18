@@ -53,7 +53,7 @@ function stringEval(s){
         if(sb>ad){
             var parts=s.split("-");
             if(parts.length>2){
-                var sec = stringEval(parts.pop()); //gotta do it this way so that the first part only includes what it needs to.
+                var sec = stringEval(parts.pop()); //need to do it this way so that the first part only includes what it needs to.
                 return(stringEval(parts.join("-"))-sec);
             }
             else{
@@ -72,7 +72,7 @@ function stringEval(s){
     }
     else if(s.includes("/")||s.includes("*")){
         var dv = s.lastIndexOf("/");
-        var mp = s.indexOf("*");
+        var mp = s.lastIndexOf("*");
         if(dv>mp){
             var parts=s.split("/");
             if(parts.length>2){
