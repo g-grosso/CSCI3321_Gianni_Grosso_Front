@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "dseg";
+    src: url("../assets/font/DSEG7Classic-Bold.woff") format('woff');
+}
+
+.calcbody {
+    margin-left: auto;
+    margin-right: auto;
+    background-color:slateblue;
+    width: 300px;
+    height: 300px;
+    padding:10px;
+    border: whitesmoke;
+    border-radius: 20px;
+    border-width: 10px;
+}
+
+.digit, .operator {
+    border-radius: 10px;
+    float: left;
+    background-color: steelblue;
+    color:whitesmoke;
+    line-height: 40px;
+    width: 65px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+.operator {
+    background-color: royalblue;
+}
+#display {
+    font-family: dseg;
+    font-size: larger;
+    line-height: 40px;
+    text-align: right;
+    width:290px;
+    height:40px;
+    margin:5px;
+    background-color:darkseagreen;
+}
+
+#equals{
+    float: right;
+    background-color:tomato;
+    height:190px;
+    width: 65px;
+    margin: 5px;
+    line-height: 190px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#clear{
+    float: left;
+    width:140px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    background-color:steelblue;
+    border-radius: 10px;
+    color: whitesmoke;
+    margin: 5px;
+}

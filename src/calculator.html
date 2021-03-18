@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../style/calculator.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+</head>
+<body>
+    <div class="calcbody">
+        <div id="display"></div>
+        <div class="operator" id="plus" onclick="updateDisplay('+')">+</div>
+        <div class="operator" id="minus" onclick="updateDisplay('-')">-</div>
+        <div class="operator" id="multiply" onclick="updateDisplay('*')">*</div>
+        <div class="operator" id="divide" onclick="updateDisplay('/')">/</div>
+        <div class="digit" id="seven" onclick="updateDisplay('7')">7</div>
+        <div class="digit" id="eight" onclick="updateDisplay('8')">8</div>
+        <div class="digit" id="nine" onclick="updateDisplay('9')">9</div>
+        <div class="special" id="equals" onclick="updateDisplay('=')">=</div>
+        <div class="digit" id="four" onclick="updateDisplay('4')">4</div>
+        <div class="digit" id="five" onclick="updateDisplay('5')">5</div>
+        <div class="digit" id="six" onclick="updateDisplay('6')">6</div>
+        <div class="digit" id="one" onclick="updateDisplay('1')">1</div>
+        <div class="digit" id="two" onclick="updateDisplay('2')">2</div>
+        <div class="digit" id="three" onclick="updateDisplay('3')">3</div>
+        <div class="special" id="clear" onclick="updateDisplay('c')">AC</div>
+        <div class="digit" id="zero" onclick="updateDisplay('0')">0</div> 
+    </div>
+    <script src="../script/calculator.js"></script> 
+</body>
+</html>
