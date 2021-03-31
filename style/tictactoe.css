@@ -1,0 +1,41 @@
+
+
+
+.gameboard div {
+    background-color: #3b4252;
+    color:#ECEFF4;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    line-height: 125px;
+    font-size: 125px;
+}
+
+#gameboard {
+    display: grid;
+    width:385px;
+    height: 385px;
+    margin:0 auto;
+    grid-gap: 10px;
+    grid-template-areas: 
+    '1 2 3'
+    '4 5 6'
+    '7 8 9'
+    ;
+}
+
+#info {
+    align-items: center;
+    justify-content: center;
+    width:385px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#startbutton {
+    width:300px;
+    height:50px;
+    font-size:40px;
+    line-height: 50px;
+    background-color: mediumpurple;
+}
